@@ -1,7 +1,7 @@
 # API de Games
 
 
-##ENDPOINTS
+## ENDPOINTS
 
 # GET /jogos
 ## Rota desenvolvida para retornar ao cliente, todos os jogos cadastrados.
