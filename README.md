@@ -4,8 +4,19 @@
 - Realizar a Autenticação com JWT.
 
 ## Endpoints
+
+### GET /jogos/:id
+Esse endpoint é responsável por retornar a listagem de todos os jogos cadastrados no banco de dados com aquele id informado.
+
+#### Parametros
+ID do jogo solicitado.
+
+#### Respostas
+
+
+
 ### GET /jogos
-Esse endpoint é responsável por retornar a listagem de todos os games cadastrados no banco de dados.
+Esse endpoint é responsável por retornar a listagem de todos os jogos cadastrados no banco de dados.
 #### Parametros
 Nenhum
 #### Respostas
