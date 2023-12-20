@@ -4,6 +4,7 @@
 - Realizar a Autenticação com JWT.
 
 ## Endpoints
+<span style="color:blue">Texto em Azul</span>
 
 ### GET /jogos/:id
 Esse endpoint é responsável por retornar a listagem de todos os jogos cadastrados no banco de dados com aquele id informado.
