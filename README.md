@@ -1,5 +1,8 @@
 # API de Games
-Esta API é utilizada para TAl e TAL...
+- Esta API foi desenvolvida para consolidar os conhecimentos sobre os verbos HTTP.
+- Utilização da biblioteca Axios para consumir a API Rest.
+- Realizar a Autenticação com JWT.
+
 ## Endpoints
 ### GET /jogos
 Esse endpoint é responsável por retornar a listagem de todos os games cadastrados no banco de dados.
@@ -12,27 +15,28 @@ Caso essa resposta aconteça você vai recebar a listagem de todos os games.
 Exemplo de resposta:
 ```
 
-[
-    {
-        "id": 23,
-        "title": "Call of duty MW",
-        "year": 2019,
-        "price": 60
-    },
-    {
-        "id": 65,
-        "title": "Sea of thieves",
-        "year": 2018,
-        "price": 40
-    },
-    {
-        "id": 2,
-        "title": "Minecraft",
-        "year": 2012,
-        "price": 20
-    }
-]
-
+jogos: 
+    [
+        {
+            id: 5,
+            titulo: "Minecraft", 
+            ano: 2005,
+            preco: 362
+        },
+        {
+            id: 10,
+            titulo: "FIFA 2020", 
+            ano: 2020,
+            preco: 346
+        },
+        {
+            id: 15,
+            titulo: "GTA V", 
+            ano: 2015,
+            preco: 556
+        }
+    
+    ]
 ```
 ##### Falha na autenticação! 401
 Caso essa resposta aconteça, isso significa que aconteceu alguma falha durante o processo de autenticação da requisição. Motivos: Token inválido, Token expirado.
